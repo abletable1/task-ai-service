@@ -1,0 +1,31 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime output and generated certificates
+logs/
+artifacts/
+certs/
+*.log
+test-output.txt
+demo-output.txt
+
+# Local editor and browser state
+.vscode/
+.idea/
+.browser-profile/
+.DS_Store
+Thumbs.db
